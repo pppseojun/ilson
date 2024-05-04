@@ -1,0 +1,16 @@
+.navBar {
+    width: 100%;
+}
+
+.navbarMenu {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 712px) {
+    .navbarMenu {
+        font-size: 15px;
+    }
+}
