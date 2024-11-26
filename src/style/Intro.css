@@ -1,0 +1,19 @@
+.introMain {
+    background-image: url("../../public/img/Intro1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+}
+
+.mainTitle {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 0;
+}

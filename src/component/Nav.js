@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div>
             <div className="navBar">
-                <Link className="navbarMenu" to={"/"}>
+                <Link className="navbarMenu" to={"/ilsonIntro"}>
                     일손 소개
                 </Link>
                 <Link className="navbarMenu" to={"/"}>

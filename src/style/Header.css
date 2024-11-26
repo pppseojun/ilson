@@ -2,21 +2,51 @@
     background-color: black;
     width: 100%;
     display: flex;
+    position: fixed;
     justify-content: space-between;
-    color: white;
     padding: 15px;
     font-weight: 600;
     font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.header.scrolled {
+    background-color: white;
+    transition: 0.3s;
+    & .mainText {
+        color: black;
+        transition: 0.5s;
+    }
+    & .navbarMenu {
+        color: black;
+        transition: 0.5s;
+    }
+}
+
+.header:hover {
+    background-color: white;
+    transition: 0.3s;
+    & .mainText {
+        color: black;
+        transition: 0.5s;
+    }
+    & .navbarMenu {
+        color: black;
+        transition: 0.5s;
+    }
 }
 
 .headerMain {
     display: flex;
     margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
 }
 
 .mainLogo {
-    height: 25px;
-    padding-right: 10px;
+    height: 30px;
+    padding-right: 5px;
 }
 
 .LoginBtn {

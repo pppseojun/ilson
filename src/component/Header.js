@@ -1,5 +1,5 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Nav from "./Nav";
 import "../style/Header.css";
 
@@ -9,12 +9,25 @@ const Header = () => {
         navigate("/login");
     };
 
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    const updateScroll = () => {
+        setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", updateScroll);
+        return () => {
+            window.removeEventListener("scroll", updateScroll);
+        };
+    }, []);
+
     return (
-        <div className="header">
-            <div className="headerMain">
+        <div className={`header ${scrollPosition > 50 ? "scrolled" : ""}`}>
+            <Link to="/" className="headerMain">
                 <img className="mainLogo" src="img/ilsonLogo.png"></img>
-                <div>일손</div>
-            </div>
+                <div className="mainText">일손</div>
+            </Link>
 
             <Nav />
             <div className="LoginBtn" onClick={navigateToLogin}>
