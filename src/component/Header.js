@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Nav from "./Nav";
-import "../style/Header.css";
+import "../style/component/Header.css";
 
 const Header = () => {
     const navigate = useNavigate();

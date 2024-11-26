@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Nav.css";
+import "../style/component/Nav.css";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -9,7 +9,7 @@ const Nav = () => {
                 <Link className="navbarMenu" to={"/ilsonIntro"}>
                     일손 소개
                 </Link>
-                <Link className="navbarMenu" to={"/"}>
+                <Link className="navbarMenu" to={"/findPartner"}>
                     일손 찾기
                 </Link>
                 <Link className="navbarMenu" to={"/"}>

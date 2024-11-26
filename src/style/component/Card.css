@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid black;
+    display: flex;
+    max-width: 250px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card .cardImage {
+    max-width: 60%;
+}

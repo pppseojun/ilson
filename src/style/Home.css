@@ -3,16 +3,21 @@
     margin: 0;
 }
 
-.MV1 {
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-}
-
 .MV1 video {
-    position: relative;
     top: -50px;
     width: 100%;
     z-index: -1;
-    object-fit: cover;
+}
+
+.MV1 .mainbg {
+    width: 100%;
+    margin-top: -50px;
+    z-index: -1;
+}
+
+/* 구직자 카드 영역 */
+.ffpCard {
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
 }
