@@ -2,22 +2,48 @@
     padding: 0;
     margin: 0;
 }
-
-.MV1 video {
-    top: -50px;
-    width: 100%;
-    z-index: -1;
+/* 메인 비디오 영역 */
+.MainSec1 {
+    overflow: hidden;
+    max-height: 1550px;
 }
 
-.MV1 .mainbg {
+.MainSec1 video {
+    top: -500px;
     width: 100%;
-    margin-top: -50px;
     z-index: -1;
 }
 
 /* 구직자 카드 영역 */
-.ffpCard {
+.MainSec2 {
+    margin-top: 100px;
+    height: 700px;
+    text-align: center;
+}
+
+/* .MainSec2 .ffpCard {
     z-index: 1;
     display: flex;
     justify-content: space-evenly;
+} */
+
+.MainSec2 > h2 {
+    font-weight: 600;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 5px gray;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+/* .ffpCard .cardBoOx {
+    box-shadow: 5xp 5px 5px gray;
+    background-color: red;
+} */
+
+.MainSec3 .mainbg {
+    width: 100%;
+    margin-top: -50px;
+    z-index: -1;
 }

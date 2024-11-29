@@ -25,7 +25,11 @@ const Header = () => {
     return (
         <div className={`header ${scrollPosition > 50 ? "scrolled" : ""}`}>
             <Link to="/" className="headerMain">
-                <img className="mainLogo" src="img/ilsonLogo.png"></img>
+                <img
+                    className="mainLogo"
+                    src="img/ilsonLogo.png"
+                    alt="메인로고"
+                ></img>
                 <div className="mainText">일손</div>
             </Link>
 

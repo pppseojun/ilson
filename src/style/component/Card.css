@@ -1,12 +1,20 @@
-.card {
+.cardBox {
     border: 1px solid black;
-    display: flex;
-    max-width: 250px;
-    text-align: center;
-    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px gray;
+    display: inline-block;
+    width: 300px;
     padding: 20px;
 }
 
-.card .cardImage {
-    max-width: 60%;
+.cardBox .cardImage {
+    max-width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.cardBox > h2 {
+    margin: 20px 0px;
+    font-weight: 400;
 }
