@@ -13,7 +13,7 @@ const HomePage = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: true,
+        arrows: true
     };
 
     return (
@@ -27,7 +27,7 @@ const HomePage = () => {
             <div className="MainSec2">
                 <h2>일손이 필요한 곳</h2>
                 <div className="ffpCard">
-                    <Slider {...SliderSetting}>
+                    <Slider {...SliderSetting} className="slider">
                         <div>
                             <Card />
                         </div>

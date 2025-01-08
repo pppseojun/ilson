@@ -21,11 +21,6 @@
     text-align: center;
 }
 
-/* .MainSec2 .ffpCard {
-    z-index: 1;
-    display: flex;
-    justify-content: space-evenly;
-} */
 
 .MainSec2 > h2 {
     font-weight: 600;
@@ -37,13 +32,11 @@
     border-radius: 30px;
 }
 
-/* .ffpCard .cardBoOx {
-    box-shadow: 5xp 5px 5px gray;
-    background-color: red;
-} */
+
 
 .MainSec3 .mainbg {
     width: 100%;
     margin-top: -50px;
     z-index: -1;
 }
+
