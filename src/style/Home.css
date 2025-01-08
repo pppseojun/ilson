@@ -22,7 +22,7 @@
 }
 
 
-.MainSec2 > h2 {
+.MainSec2 .CardTitle {
     font-weight: 600;
     margin-bottom: 50px;
     border: 3px solid black;
@@ -32,11 +32,14 @@
     border-radius: 30px;
 }
 
+.WorkerCardSec{
+    margin-top: 100px;
+}
 
 
 .MainSec3 .mainbg {
     width: 100%;
-    margin-top: -50px;
+    margin-top: 500px;
     z-index: -1;
 }
 

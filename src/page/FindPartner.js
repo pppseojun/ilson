@@ -4,7 +4,6 @@ import Header from "../component/Header";
 function FindPartnerPage() {
     return (
         <div>
-            <Header />
         </div>
     );
 }
